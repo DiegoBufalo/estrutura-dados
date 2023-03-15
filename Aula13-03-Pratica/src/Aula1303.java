@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Hello world!
  *
  */
-public class App {
+public class Aula1303 {
 
     public static void main(String[] args) {
         Conta conta1 = new Conta(50, "123", "1001");

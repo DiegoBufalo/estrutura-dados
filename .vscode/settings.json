@@ -1,9 +1,0 @@
-{
-    "java.project.sourcePaths": [
-        "ListaRevisao-Pratica/src"
-    ],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
-}

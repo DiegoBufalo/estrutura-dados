@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Lista de exercicios de revisão Estrutura de dados Prática
  */
-public class App {
+public class ListaRevisao {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
