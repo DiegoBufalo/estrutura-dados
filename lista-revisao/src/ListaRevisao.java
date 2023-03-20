@@ -9,7 +9,7 @@ public class ListaRevisao {
         Scanner sc = new Scanner(System.in);
         try {
             while (true) {
-                System.out.println("\033[H\033[2J");
+                clearConsole();
                 String menu = """
                             Bem-vindo(a), logo abaixo você vera uma lista com diversas funcionalidades,
                             digite a letra que precede a funcionalidade desejada para inicia-la
@@ -27,7 +27,6 @@ public class ListaRevisao {
                             K - Inversao de vetor
                             L - Calculo de vetor com retorno dos maiores que a media
                             M - Calculo de media de menor e maior do vetor e quantidade maior que a media
-
 
                             Digite 'SAIR' para encerrar.
                         """;
@@ -95,7 +94,7 @@ public class ListaRevisao {
 
     private static void encerrarApp(Scanner sc, boolean forced) {
         sc.close();
-        System.out.println("\033[H\033[2J");
+        clearConsole();
         if (forced) {
             System.out.println("*********** VOCE FEZ ALGO ERRADO ***********");
         } else {
@@ -385,4 +384,9 @@ public class ListaRevisao {
 
     }
 
+    // clear console
+    private static void clearConsole() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
+    }
 }
