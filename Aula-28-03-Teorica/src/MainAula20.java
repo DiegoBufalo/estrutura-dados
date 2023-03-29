@@ -12,7 +12,7 @@ public class MainAula20 {
 
             escolha = sc.nextInt();
 
-            if (escolha > 0) {
+            if (escolha >= 0) {
                 clearBoard();
                 System.out.println("Soma iterativa: " + somaIterativa(escolha));
                 System.out.println("Soma recursiva: " + somaRecursiva(escolha));
@@ -32,8 +32,8 @@ public class MainAula20 {
     }
 
     public static int somaRecursiva(int n) {
-        if (n == 1) {
-            return 1;
+        if (n <= 1) {
+            return n;
         } else {
             return n + somaRecursiva(n - 1);
         }
