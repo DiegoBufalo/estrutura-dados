@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Aula05",
+            "request": "launch",
+            "mainClass": "Aula05",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
+            "name": "Aula04",
+            "request": "launch",
+            "mainClass": "Aula04",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
+            "name": "Aula02",
+            "request": "launch",
+            "mainClass": "Aula02",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
             "name": "CustomInputDialog",
             "request": "launch",
             "mainClass": "CustomInputDialog",
