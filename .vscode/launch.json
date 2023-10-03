@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FilaPrior",
+            "request": "launch",
+            "mainClass": "pilhaFila.FilaPrior",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
+            "name": "FilaPrior",
+            "request": "launch",
+            "mainClass": "FilaPrior",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
             "name": "Aula05",
             "request": "launch",
             "mainClass": "Aula05",
