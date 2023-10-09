@@ -1,4 +1,4 @@
-package pilhaFila;
+package pilhaFilaDeque;
 public class FilaChar {
 
     private int tamanho, front, rear;

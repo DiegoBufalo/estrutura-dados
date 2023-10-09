@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CircularDeque",
+            "request": "launch",
+            "mainClass": "pilhaFilaDeque.CircularDeque",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
             "name": "FilaPrior",
             "request": "launch",
             "mainClass": "pilhaFila.FilaPrior",

@@ -1,4 +1,4 @@
-package pilhaFila;
+package pilhaFilaDeque;
 public class Pilha {
     private Object[] vetor;
     private int pos = 0;

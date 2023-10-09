@@ -1,4 +1,4 @@
-package pilhaFila;
+package pilhaFilaDeque;
 public class FilaPrior {
 
     private FilaChar f1, f2, f3;
