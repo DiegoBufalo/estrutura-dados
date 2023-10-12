@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PilhaDin",
+            "request": "launch",
+            "mainClass": "aula08.PilhaDin",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
+            "name": "FilaDin",
+            "request": "launch",
+            "mainClass": "aula08.FilaDin",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
+            "name": "ListaFone",
+            "request": "launch",
+            "mainClass": "aula08.ListaFone",
+            "projectName": "bufalo_d84b06cb"
+        },
+        {
+            "type": "java",
             "name": "CircularDeque",
             "request": "launch",
             "mainClass": "pilhaFilaDeque.CircularDeque",
